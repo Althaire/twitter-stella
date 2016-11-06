@@ -1,0 +1,6 @@
+.background {
+  #luna-bg{}
+  #stella-bg{
+    @include background(linear-gradient(red, green) left repeat);
+  }
+}
